@@ -182,9 +182,9 @@ void loop() {
     JSONVar data = JSON.parse(js);
     
     // Stampa sul display i valori delle sonde
-    // ATTENZIONE: tra le parentesi quadre ci sono i canali dello Shelby: 0=Rete, 1=FTV
-    String p0=JSON.stringify(data["emeters"][1]["power"]); // FTV
-    String p1=JSON.stringify(data["emeters"][0]["power"]); // PWR
+    // ATTENZIONE: tra le parentesi quadre ci sono i canali dello Shelby: 1=Rete, 0=FTV
+    String p0=JSON.stringify(data["emeters"][0]["power"]); // FTV
+    String p1=JSON.stringify(data["emeters"][1]["power"]); // PWR
 
     // Verifico di aver ricevuto qualcosa da Shelly EM
     if(p1!="null") {
