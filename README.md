@@ -32,9 +32,19 @@ Arduino NodeMCU ESP8266 as advanced power monitor display for a Shelly EM device
   - correct starting after power on
   - error wifi connections, Access Point startup
 
+- NOTE:
+  - i realized a portable case, with powerbank battery inside TP-LINK https://www.tp-link.com/it/home-networking/mobile-accessory/tl-pb10400/
+  - so i edited the 3D Printer file SCAM, with 80mm diameter https://www.thingiverse.com/thing:3391397
+  - 
 
 
+- ShellyEM https://www.shellyitalia.com/shelly-em/
+![immagine](https://user-images.githubusercontent.com/9199000/236873996-9918059e-24a6-498a-800f-9f3bb6c7ea32.png)
 
+- Schematic
+![Schema](https://user-images.githubusercontent.com/9199000/236876619-39e3269e-0f74-430c-937d-3ae92f49ee54.jpg)
+
+- 3D Case
 ![IMG2](https://user-images.githubusercontent.com/9199000/236864406-ace13526-b83b-4fe0-92bf-77c72a49bcbe.jpg)
 
 ![IMG1](https://user-images.githubusercontent.com/9199000/236864378-3041daca-a9fd-4fc4-a5c6-dbc937ce76ba.jpg)
