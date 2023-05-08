@@ -621,7 +621,7 @@ String SendHTML(){
 String SendHTMLok(){
   String ptr = "<!DOCTYPE html> <html>\n";
   ptr ="<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
-  ptr +="<title>POWER MONITOR</title>\n";
+  ptr +="<title>POWER MONITOR v2</title>\n";
   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";
   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}\n";
   ptr +=".button {display: block;width: 80px;background-color: #1abc9c;border: none;color: white;padding: 13px 30px;text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border-radius: 4px;}\n";
@@ -633,7 +633,7 @@ String SendHTMLok(){
   ptr +="</style>\n";
   ptr +="</head>\n";
   ptr +="<body>\n";
-  ptr +="<h1>-POWER MONITOR-</h1>\n";
+  ptr +="<h1>-POWER MONITOR v2-</h1>\n";
   ptr +="<div style=\"border-style:double; background-color:#E2E2E2\">\n";
   ptr +="<h3>DONE</h3>\n";
   ptr +="<h4>Wifi and ShellyEM changes need reboot.</h5>\n";  
