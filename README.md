@@ -1,5 +1,33 @@
 # arduino-power-monitor-v2
-Arduino NodeMCU ESP8266 as advanced power monitor display for a Shelly EM device
+Author: CARLO BENDINELLI
+
+Arduino NodeMCU ESP8266 as advanced power monitor display for a Shelly EM device:
+
+- OLED 1.3 display for visual informations:
+-- Real time photovoltaic power production + orizzontal bar
+-- Real Time power fed into or drawn from the electricity grid + orizzontal bar
+-- WiFi LAN IP to reach the Configuration Web Page
+-- Access Point IP (when WiFi access fails) to reach the Configuration Web Page
+
+- WEB SERVER:
+-- setup up to two Wifi
+-- setup up to two Shelly EM device (for example, LAN and WAN address)
+-- Setup the Max power for photovoltaic system
+-- Setup the Max power available form the grid
+-- Setup the Levels to activate the RGB LED indicator
+
+
+- RGB LED light to see real time status, amount of power exchanged with the grid, full customizable reference level through Web Page:
+-- Flashing Green -> Very high available power
+-- Green -> High available power
+-- Azure -> Mid available power
+-- Blue -> Low available power
+-- Pink -> Mid drawn power from grid
+-- Red -> High drawn power from grid
+-- Flashing red -> Very High drawn power from grid
+
+- Acoustic ALARM for more withdrawals from the grid than allowed (risk of disconnection of the grid)
+- 
 
 
 
